@@ -44,6 +44,10 @@ html, body, main {
     background-color: #1A1A1A;
 }
 
+.skills {
+    margin-bottom: 100px;
+}
+
 .projects__title, .skills__title {
     font-size: 3rem;
     color: white;
@@ -143,6 +147,7 @@ a {
 
 .skill__skill-content {
     opacity: 0;
+    overflow: hidden;
     visibility: hidden;
     padding: 7px;
     display: grid;
