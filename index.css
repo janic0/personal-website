@@ -14,7 +14,7 @@ html, body, main {
 .home {
     color: white;
     height: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -303,10 +303,18 @@ a {
     .skill__skill-content  {
         grid-template-columns: repeat(1, 1fr);
     }
-    .projects {
+    .content__skill--visible .skill__skill-content {
+        padding: 40px 0;
+    }
+    .projects, .skills {
         padding: 40px;
     }
-    .skills {
-        padding: 40px;
+
+    .home-content__title {
+        font-size: 2rem;
+    }
+    .home-content__subtitle {
+        font-size: 1rem;
+        max-width: 200px;
     }
 }
