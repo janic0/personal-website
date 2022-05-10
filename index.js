@@ -56,12 +56,10 @@ const renderHome = () => {
 		const screenWidth = window.innerWidth;
 
 		if (screenWidth < 768) {
-			if (placedIconElements.some((a) => a.ref !== null))
-				placedIconElements = placedIconElements.map((icon) => {
-					if (!icon.ref) return;
-					icon.ref.remove();
-					icon.ref.remove();
-				});
+			icons.forEach((icon) => {
+				if (!icon.ref) return;
+				icon.ref.style.display = "none";
+			});
 			return;
 		}
 
@@ -165,6 +163,7 @@ const renderHome = () => {
 
 				e.src = `/img/icons/${currentIcon.path}`;
 				e.style.position = "absolute";
+				e.style.display = "block";
 				e.style.transition = "top 0.1s, bottom 0.1s";
 
 				const dimensions = {
@@ -196,6 +195,7 @@ const renderHome = () => {
 
 				Object.keys(dimensions).forEach((key) => {
 					if (dimensions[key]) e.style[key] = px(dimensions[key]);
+					else e.style[key] = "";
 				});
 
 				e.style.width = HEADING_ICON_SIZE + "px";
@@ -220,20 +220,17 @@ const renderHome = () => {
 	};
 
 	positionIcons();
-
-	window.addEventListener("wheel", ({ deltaY }) => {
+	window.onscroll = () => {
+		const target = window.scrollY / 3;
 		placedIconElements.forEach((icon) => {
-			const target = deltaY / 3;
-			if (icon.currentBuffer > window.innerHeight) return;
-			if (icon.currentBuffer < 0 && deltaY < 0) return;
 			const hasTop = icon.dimensions.top !== null;
 			icon.element.style[hasTop ? "top" : "bottom"] =
 				(hasTop ? icon.dimensions.top : icon.dimensions.bottom) +
-				(hasTop ? -1 : 1) * (icon.currentBuffer + target) +
+				(hasTop ? -1 : 1) * target +
 				"px";
-			icon.currentBuffer += target;
 		});
-	});
+	};
+
 	window.addEventListener("resize", positionIcons);
 };
 

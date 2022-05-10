@@ -303,4 +303,10 @@ a {
     .skill__skill-content  {
         grid-template-columns: repeat(1, 1fr);
     }
+    .projects {
+        padding: 40px;
+    }
+    .skills {
+        padding: 40px;
+    }
 }
