@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-64,-2913.56)">
+        <g transform="matrix(1,0,0,1,-49,2114.56)">
+            <g transform="matrix(2.01961,0,0,2.01961,-101.078,-204.745)">
+                <path d="M157,509.75C157,502.713 151.287,497 144.25,497L118.75,497C111.713,497 106,502.713 106,509.75L106,535.25C106,542.287 111.713,548 118.75,548L144.25,548C151.287,548 157,542.287 157,535.25L157,509.75Z" style="fill:rgb(230,230,230);"/>
+                <g transform="matrix(0.130718,0,0,0.130718,131.5,522.5)">
+                    <g transform="matrix(1,0,0,1,-125,-125)">
+                        <g id="mongodb-leaf">
+                            <path id="mongodb-leaf-stem" d="M132.119,245.312L125.76,243.139C125.76,243.139 126.536,210.723 114.903,208.397C107.148,199.401 116.144,-173.154 144.062,207.156C144.062,207.156 134.446,211.964 132.74,220.185C130.878,228.25 132.119,245.312 132.119,245.312L132.119,245.312Z" style="fill:rgb(166,163,133);fill-rule:nonzero;"/>
+                            <path id="mongodb-leaf-right" d="M133.22,217.976C133.22,217.976 195.373,183.036 177.184,101.221C164.622,45.85 134.996,27.703 131.74,20.723C128.173,15.76 124.76,7.075 124.76,7.075L127.087,161.09C127.087,161.246 120.841,212.133 133.096,217.872" style="fill:rgb(73,157,74);fill-rule:nonzero;"/>
+                            <path id="mongodb-leaf-left" d="M122.503,215.997C122.503,215.997 70.233,180.323 73.336,117.507C76.282,54.691 113.197,23.826 120.331,18.242C124.985,13.279 125.14,11.417 125.45,6.454C128.707,13.434 128.087,110.838 128.552,122.315C129.948,166.519 126.07,207.622 122.503,215.997Z" style="fill:rgb(88,170,80);fill-rule:nonzero;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

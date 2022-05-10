@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-850,-2292.56)">
+        <g transform="matrix(1,0,0,1,-49,2160.56)">
+            <g transform="matrix(2.01961,0,0,2.01961,684.922,-871.745)">
+                <path d="M157,509.75C157,502.713 151.287,497 144.25,497L118.75,497C111.713,497 106,502.713 106,509.75L106,535.25C106,542.287 111.713,548 118.75,548L144.25,548C151.287,548 157,542.287 157,535.25L157,509.75Z" style="fill:rgb(64,64,64);"/>
+                <g transform="matrix(0.495146,0,0,0.495146,131.5,522.5)">
+                    <g transform="matrix(1,0,0,1,-38,-38)">
+                        <path d="M37.474,68L19.914,63.202L16,20L59,20L55.083,63.195L37.473,68L37.474,68Z" style="fill:rgb(21,114,182);fill-rule:nonzero;"/>
+                        <path d="M51.572,60.098L55,23L37,23L37,64L51.572,60.098Z" style="fill:rgb(51,169,220);fill-rule:nonzero;"/>
+                        <path d="M25,39L25.462,45L37,45L37,39L25,39ZM24,29L24.471,34L37,34L37,29L24,29ZM37,53.156L36.978,53.162L31.392,51.475L31.035,47L26,47L26.703,55.81L36.977,59L37,58.993L37,53.156Z" style="fill:rgb(235,235,235);fill-rule:nonzero;"/>
+                        <path d="M26,8L32,8L32,10.667L28.51,10.667L28.51,13.333L32,13.333L32,16L26,16L26,8ZM34,8L40,8L40,10.286L36.51,10.286L36.51,10.743L40,10.743L40,16L34,16L34,13.6L37.491,13.6L37.491,13.143L34,13.143L34,8ZM41,8L48,8L48,10.286L43.927,10.286L43.927,10.743L48,10.743L48,16L41,16L41,13.6L45.073,13.6L45.073,13.143L41,13.143L41,8Z" style="fill:rgb(139,139,139);fill-rule:nonzero;"/>
+                        <path d="M49.991,39.724L51,29L37,29L37,34.298L44.875,34.298L44.367,39.724L37,39.724L37,45.022L43.882,45.022L43.233,51.893L37,53.488L37,59L48.457,55.99L48.541,55.095L49.855,41.146L49.991,39.724Z" style="fill:white;fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
